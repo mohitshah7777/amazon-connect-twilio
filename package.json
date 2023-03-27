@@ -1,0 +1,24 @@
+{
+  "name": "whatsappchat-twilioapi-amazonconnectchat",
+  "version": "1.0.0",
+  "author": "Dilipan Somasundaram",
+  "description": "Node JS server for transferring real-time messages between WhatsApp and Amazon Connect Chat via Twilio's WhatsApp Business API Sandbox.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "2.613.0",
+    "body-parser": "1.19.0",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "node-fetch": "2.6.1",
+    "twilio": "3.39.3",
+    "websocket": "1.0.31"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
